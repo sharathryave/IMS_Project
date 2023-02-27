@@ -1,0 +1,15 @@
+<nav class="navbar navbar-light bg-primary">
+  <!-- <div class="container-fluid" > -->
+     <div id="up">
+      <h1 style="color:darkgreen">File Upload</h1>
+     </div>
+
+      <input (change) ="selectFile($event)" type="file" />
+
+    <div id="bt">
+        <button (click)=uploadFile() class="btn btn-success" style="color: darkgreen;"  [routerLink]="['/file-check']">Upload</button>
+        <!-- <button class="btn" [routerLink]="['/file-check']" >Ims Page</button> -->
+    </div>
+
+  <!-- </div> -->
+</nav>

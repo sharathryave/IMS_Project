@@ -1,0 +1,6 @@
+com\api\LibapiApplication.class
+com\api\service\ProductService.class
+com\api\controller\ProductController.class
+com\api\helper\Helper.class
+com\api\repo\ProductRepo.class
+com\api\entity\FileDB.class
